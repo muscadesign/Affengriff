@@ -1,0 +1,52 @@
+/**	- layout **/
+html {
+  height: 100.3%;
+}
+/**	Links **/
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  position: relative;
+  top: 1px;
+}
+table {
+  line-height: 1.5em;
+  margin: 1.4 auto;
+  
+}
+/*auto = mittig!*/
+table td, table th {
+  text-align: right;
+  width: 10em;
+}
+ul {
+  margin: 0;
+}
+ol {
+  margin: 0;
+}
+ol li {
+  list-style-type: decimal;
+}
+.verse pre {
+  font-size: 0.85em;
+  line-height: 1.647em;
+  font-family: inherit;
+  display: table;
+  width: auto;
+  margin: 1.765em auto;
+  font-style: italic;
+}
+
+
+/**	Content **/
+header#main {
+  
+	
+
+}
+

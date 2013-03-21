@@ -1,0 +1,43 @@
+/**	- typo **/
+body {
+  font: 16px/1.5 Arial;
+}
+h1 {
+  font-size: 1.8em;
+  line-height: 0.778em;
+  margin: 0 0 0.778em 0;
+}
+h2 {
+  font-size: 1.5em;
+  line-height: 0.933em;
+  margin: 0 0 0.933em 0;
+}
+h3 {
+  font-size: 1.12em;
+  line-height: 1.25em;
+  margin: 0 0 1.25em 0;
+}
+h4 {
+  font-size: 0.88em;
+  line-height: 1.591em;
+  margin: 0 0 1.591em 0;
+}
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin: 0 0 1.4em 0;
+}
+small {
+  font-size: 0.85em;
+  line-height: 1.647em;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+abbr {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}

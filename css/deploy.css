@@ -1,0 +1,375 @@
+/**	-reset  **/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   http://meyerweb.com/eric/tools/css/reset/
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/**	- typo **/
+body {
+  font: 15px/1.5 "Myriad Pro";
+}
+h1 {
+  font-size: 1.8em;
+  line-height: 0.889em;
+  margin: 0 0 0.889em 0;
+}
+h2 {
+  font-size: 1.5em;
+  line-height: 1.067em;
+  margin: 0 0 1.067em 0;
+}
+h3 {
+  font-size: 1.12em;
+  line-height: 1.429em;
+  margin: 0 0 1.429em 0;
+}
+h4 {
+  font-size: 0.88em;
+  line-height: 1.818em;
+  margin: 0 0 1.818em 0;
+}
+p {
+  font-size: 1em;
+  line-height: 1.6em;
+  margin: 0 0 1.6em 0;
+}
+small {
+  font-size: 0.85em;
+  line-height: 1.882em;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+abbr {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+/**	- color **/
+html {
+  background: #ffffff;
+  color: #808080;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #677e7a;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #c9c9c9;
+}
+h1 {
+  color: #d4d4d4;
+}
+h1 {
+  color: #333333;
+}
+h2 {
+  color: #333333;
+}
+h3 {
+  color: #333333;
+}
+/** - makeup **/
+#header {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+/**	- layout **/
+html {
+  height: 100.3%;
+}
+/**	Links **/
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  position: relative;
+  top: 1px;
+}
+/**	Tabellen 
+
+	width:100% bewirkt, das alle <td> sich gleichmässig verteilen
+	
+	table-layout:fixed bewirkt, das sich die Zellenbreite nicht! 
+	automatisch an der länge des Textes ausrichtet sondern
+	an der Angabe der Breite(width).
+**/
+table {
+  /* width:100%; */
+  line-height: 1.5em;
+  table-layout: fixed;
+  margin: 0 0 1.6em 0;
+}
+table th {
+  text-align: left;
+  font-weight: bold;
+}
+table td {
+  border: 1px solid #c1c1c1;
+  padding: 1em;
+}
+/**	Listen **/
+ul {
+  margin: 0;
+}
+ol {
+  margin: 0;
+}
+ol li {
+  list-style-type: decimal;
+}
+/**	code **/
+.verse pre {
+  font-size: 0.85em;
+  line-height: 1.882em;
+  font-family: inherit;
+  display: table;
+  width: auto;
+  margin: 1.765em auto;
+  font-style: italic;
+}
+p.columns {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1em;
+  -moz-column-count: 2;
+  -moz-column-gap: 1em;
+  -o-column-count: 2;
+  -o-column-gap: 1em;
+  width: 100%;
+}
+/**	Content **/
+
+
+span.n ,span.x {
+	display:inline-block;
+	width:1.5em;
+
+}
+span.x{
+	color:black;
+}
+
+#Chord{
+	position:relative;
+	margin:1em;
+	background:url(css/bg.png) no-repeat 15px 0;
+	overflow:hidden;
+	
+}
+
+.saite{
+	
+	display:block;
+	float:left;
+	width: 33px;
+	top:0;
+	
+}
+#bund {
+	position:absolute;
+	left:200px;
+	top:0px;
+	font-size:2em;
+	font-weight:bold;
+}
+
+.saite > div{
+	
+	/* margin:5px 0;	 */
+	height:41px;
+	width: 30px;
+	padding-top: 16px;
+	padding-left:1px;
+	text-align:center;
+	overflow:hidden;
+	color:white;
+	
+}
+.active{
+	background: url(css/dot.png) no-repeat 3px 12px;
+}
+
+.root{
+	background: url(css/dots/dot.png) no-repeat 3px 12px;
+}
+.ter{
+	background: url(css/dots/terz.png) no-repeat 3px 12px;
+}
+.qua{
+	background: url(css/dots/quarte.png) no-repeat 3px 12px;
+}
+.qui{
+	background: url(css/dots/quinte.png) no-repeat 3px 12px;
+}
+.sex{
+	background: url(css/dots/sexte.png) no-repeat 3px 12px;
+}
+.sep{
+	background: url(css/dots/septime.png) no-repeat 3px 12px;
+}
+
+
+#header {
+  /* .box-shadow(2px, 5px); */
+}
+#header h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+#header p {
+  font-size: 12px;
+}
+#header p a {
+  text-decoration: none;
+}
+#header p a:hover {
+  border-width: 1px;
+}
+/*If you want to have a CSS style that only smartphones will pick up, use:*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 569px) {
+  
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}

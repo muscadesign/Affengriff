@@ -1,0 +1,22 @@
+/**	- color **/
+html {
+  background: #cecece;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #677e7a;
+}
+p {
+  color: #9b9b9b;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #989898;
+}
+h1 {
+  color: #a3a3a3;
+}
